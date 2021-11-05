@@ -1,0 +1,94 @@
+footer {
+    padding: 32px 0 97px;
+    background: $main-color;
+}
+.footer {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__h {
+        font-size: 45px;
+        letter-spacing: -1px;
+        color: #ffffff;
+        font-weight: bold;
+    }
+    &__text {
+        font-size: 18px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        margin-top: 73px;
+        max-width: 80%;
+    }
+    &__contacts {
+        margin-top: 55px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__numbers {
+        display: flex;
+        flex-direction: column;
+        border-right: 3px solid #0058a7;
+        padding-right: 36px;
+        flex-basis: 66%;
+    }
+    &__phone {
+        font-size: 18px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    &__soc {
+        padding-left: 36px;
+        
+    }
+    &__link {
+        font-size: 11px;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    &__form {
+        max-width: 45%;
+        padding: 43px;
+        border: 5px solid #546682;
+        
+    }
+    &__input {
+        width: 100%;
+        height: 56px;
+        background: #546682;
+        border: none;
+        margin-top: 3px;
+        font-size: 15px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-weight: 500;
+        padding-left: 37px;
+        &::placeholder {
+            color: #fff;
+        }
+    }
+    &__btn {
+        margin-top: 18px;
+        background-color: $main-color;
+        border: 3px solid #ffffff;
+        color: #fff;
+        width: 100%;
+        &:hover {
+            background: #FFF;
+            color: $main-color;
+            
+        }
+    }
+    
+
+}
+.policy {
+    display: block;
+    text-align: center;
+}

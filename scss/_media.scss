@@ -1,0 +1,119 @@
+@media screen and(max-width:1023px) {
+    .projects {
+        padding: 50px 0 50px;
+        &__text {
+            margin-top: 30px;
+        }
+        &__wrapper {
+            margin-top: 30px;
+        }
+        &__h {
+            font-size: 36px;
+        }
+    }
+    .btn {
+        margin-top: 20px;
+    }
+    .footer {
+        &__form {
+            max-width: 50%;
+        }
+    }
+}
+@media screen and(max-width:1000px) {
+    .footer {
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__form {
+            margin: 20px auto 0;
+            max-width: 90%;
+            
+        }
+    }
+}
+@media screen and(max-width:767px) {
+    .menu {
+        position: fixed;
+        
+        flex-direction: column;
+        top: 0;
+        right: -100%;
+        background: rgba(5%, 11%, 17%, .9);
+        padding: 50px;
+        width: 70%;
+        height: 80vh;
+        transition: all .3s;
+        z-index: 3;
+        &_active {
+            right: 0;
+        }
+        &__item {
+            a {
+                color: #fff;
+                font-size: 16px;
+            }
+        }
+        
+    }
+    .hamburger {
+        display: flex;
+    }
+    .projects {
+        &__wrapper {
+            flex-wrap: wrap;
+            
+            justify-content: center;
+            align-items: center;
+        }
+        &__item {
+            width: 300px;
+            &__name {
+                font-size: 16px;
+            }
+        }
+    }
+    .btn {
+        width: 250px;
+        height: 48px;
+        line-height: 48px;
+        font-size: 14px;
+    }
+    .footer {
+        &__btn {
+            width: 100%;
+        }
+        &__form {
+            padding: 10px;
+        }
+        &__text {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        &__h {
+            font-size: 24px;
+        }
+    }
+}
+@media screen and(max-width:525px) {
+    .container {
+        width: 95%;
+    }
+    .projects {
+        padding: 15px 0;
+        &__h {
+            font-size: 24px;
+        }
+        &__text {
+            font-size: 14px;
+        }
+    }
+    .footer {
+        &__contacts {
+            flex-direction: column;
+        }
+        &__soc {
+            padding-left: 0;
+        }
+    }
+}

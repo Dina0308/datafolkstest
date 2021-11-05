@@ -1,0 +1,49 @@
+@font-face { 
+    font-family: 'D IN Pro'; 
+    src: url('../fonts/DINPro.woff') format('woff');
+    font-weight: normal; 
+    font-style: normal; 
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import '_vari.scss';
+body {
+  font-family: 'D IN Pro', 'Arial', sans-serif; 
+}
+.container {
+  width: 80%;
+  max-width: 1128px;
+  margin: 0 auto;
+}
+.btn {
+  margin: 82px auto 0;
+  width: 362px;
+  height: 60px;
+  background-color: #d1d7da;
+  border: 3px solid #00264c;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  color: #344258;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all .4s;
+  &:hover {
+    cursor: pointer;
+    background: $main-color;
+    color: #FFF;
+  }
+  &:active {
+    box-shadow: inset 4px 4px 4px rgba(179, 179, 179, 0.68);
+  }
+}
+
+@import '_header';
+@import '_projects';
+@import '_footer';
+@import '_modal';
+@import '_media';
